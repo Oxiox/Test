@@ -1,0 +1,51 @@
+<html dir="rtl">
+ <head>
+
+
+
+                <title>Sign Up Form</title>
+                <link rel="stylesheet" href="file:///C:/Users/hp/Desktop/oscar/aa.css">
+
+        		<style type="text/css">
+				.auto-style1 {
+					background-color: #5fcf80;
+					height: 30px;
+					width: 30px;
+					display: inline-block;
+					margin-right: 4px;
+					line-height: 30px;
+					text-align: center;
+					text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+					border-radius: 100%;
+				}
+				</style>
+
+        </head>
+        <body style="float: inherit; text-indent: inherit; text-align: center;" background="file:///E:/Download/2916-13.jpg">
+
+            <form action="l_p.php" method="POST">
+
+                <h1>&#1578;&#1587;&#1580;&#1610;&#1604; &#1575;&#1604;&#1583;&#1582;&#1608;&#1604;</h1>
+
+               
+                <p class="auto-style1" style="width: 230px">الرجاء ادخال البيانات</p>
+                <br>
+<br>
+<br>
+    <P>                
+<label id="Label1">البريد الالكتروني</label>       
+ <input name="user1" type="text" id="user1" value="UserName"/>
+</p>
+<br>
+<br>
+<br>
+<p>
+<label id="Label1">كلمة السر</label>       
+   <input name="pass1" type="password" id="pass1" value="Password" />
+</p>
+
+
+            <p>    <button type="submit" style="font-size: x-large" id="save">دخول</button></p>
+            </form>
+        </body>
+</html>
